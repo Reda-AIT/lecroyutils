@@ -37,6 +37,11 @@ class TriggerType(Enum):
     internal = 'INTERNAL'
     tv = 'TV'
     pattern = 'PATTERN'
+    # Added for Serial Decode / I2C Support
+    serial = 'SERIAL'
+    i2c = 'I2C'
+    spi = 'SPI'
+    uart = 'UART'
 
 
 class LecroyScope:
